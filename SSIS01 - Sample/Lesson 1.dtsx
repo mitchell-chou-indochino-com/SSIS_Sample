@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Lesson 1"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{7D47C413-2986-4C63-A58D-EC24D129E34D}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{27D697A0-06AE-4722-A12C-DF541786D3FD}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -767,10 +767,10 @@ where [refTable].[FullDateAlternateKey] = ?</property>
           Id="Package\Extract Sample Currency Data"
           TopLeft="313.999987483025,38.7647064400379" />
         <AnnotationLayout
-          Text="Test Lession 1 Control Flow"
+          Text="Test Lession 1 Control Flow, branch new"
           ParentId="Package"
           FontInfo="{assembly:Null}"
-          Size="173,60"
+          Size="240,40"
           Id="a8d84213-5f2f-40a7-8a7c-9ad4202db550"
           TopLeft="599,80" />
       </GraphLayout>
