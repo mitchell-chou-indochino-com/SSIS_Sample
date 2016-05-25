@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Lesson 1"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{F994F4DA-9150-469C-B4BF-0838F3732A24}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{7D47C413-2986-4C63-A58D-EC24D129E34D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -761,11 +761,18 @@ where [refTable].[FullDateAlternateKey] = ?</property>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="240,42"
           Id="Package\Extract Sample Currency Data"
           TopLeft="313.999987483025,38.7647064400379" />
+        <AnnotationLayout
+          Text="Test Lession 1 Control Flow"
+          ParentId="Package"
+          FontInfo="{assembly:Null}"
+          Size="173,60"
+          Id="a8d84213-5f2f-40a7-8a7c-9ad4202db550"
+          TopLeft="599,80" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -876,7 +883,7 @@ where [refTable].[FullDateAlternateKey] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -886,7 +893,7 @@ where [refTable].[FullDateAlternateKey] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -899,7 +906,7 @@ where [refTable].[FullDateAlternateKey] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -909,7 +916,7 @@ where [refTable].[FullDateAlternateKey] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
